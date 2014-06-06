@@ -1,0 +1,21 @@
+.main{
+  height: 400px;
+  width:800px;
+  border: 1px solid #ddd;
+  padding:15px;
+}
+.input-line{
+  position:relative;
+  bottom:0px;
+}
+.message-box{
+  height:330px;
+  overflow:scroll;
+}
+.edit-input{
+ display:none;
+ width:126px;
+}
+.edit-label{
+  cursor:pointer;
+}
