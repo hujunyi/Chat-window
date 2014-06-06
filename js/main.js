@@ -54,7 +54,7 @@ var MessageListView = Backbone.View.extend({
       this.$("#name-label").hide();
     },
     confirmName: function(){
-       this.name = this.$("#edit-input").val();
+       this.name = this.$("#edit-input").val().trim();
        if(this.name ===""){
          this.name = "anonymous user"
        }
